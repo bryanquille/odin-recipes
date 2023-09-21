@@ -11,7 +11,7 @@ body {
 .title-1 {
     text-align: center;
     font-weight: bold;
-    font-size: 60px;
+    font-size: 72px;
     color: #E55604;
 }
 
@@ -28,9 +28,8 @@ body {
     list-style: none;
 }
 
-.recipe-1,
-.recipe-2,
-.recipe-3 {
+.recipe-link {
+    display: block;
     height: 50px;
     width: 500px;
     margin-bottom: 20px;
@@ -38,11 +37,13 @@ body {
     margin-right: auto;
     padding: 10px;
     text-align: center;
+    text-decoration: none;
     background-color: #B4B4B3;
+    color: #26577C;
     border-radius: 10px;
 }
 
-.recipe-link {
-    color: #26577C;
-    text-decoration: none;
+.recipe-link:hover {
+    background-color: #26577C;
+    color: #B4B4B3;
 }
